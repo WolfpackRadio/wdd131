@@ -26,6 +26,20 @@ para.classList.add('background');
 
 const image = document.querySelector('img');
 
-image.setAttribute('src', 'images/new_logo.png');
+//image.setAttribute('src', 'images/new_logo.png');
+
+const dropdown = document.querySelector('#webdevlist');
+const html = document.querySelector('#html');
+const css = document.querySelector('#css');
+const JS = document.querySelector('#JS');
+
+dropdown.addEventListener('change', function(){
+    html.style.color = 'purple';
+    css.style.color = 'purple';
+    JS.style.color = 'purple';
+    let codeValue = dropdown.value;
+    console.log(codeValue);
+    document.getElementById(codeValue).style.color = 'red';
+});
 
 
