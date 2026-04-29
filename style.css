@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.pagelink {
+    background: seagreen;
+    color: white;
+    font-family: Arial;
+    font-size: 1.2em;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    display: block;
+    margin: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.pagelink:hover {
+    transition: .2s;
+    background: blueviolet;
+    text-decoration: underline;
+}
+h2 {
+    font-family: Arial;
+    text-align: center;
+    width: 30%;
+    padding: 20px 40px;
+}
