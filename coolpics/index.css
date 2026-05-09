@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+header,nav,footer {
+    max-width: 100%;
+    margin-inline: auto;
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+a {
+    color: white;
+}
+div {
+    background-color: gray;
+}
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+main {
+    text-align: center;
+}
+img {
+    margin-inline: auto;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .menu-btn{
+        display: none;
+    }
+    nav a {
+        display: inline;
+    }
+    nav {
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+/*border: 1px solid #ccc;*\
