@@ -67,7 +67,6 @@ header, footer {
     }
     .movie img {
         grid-row: 1/6;
-        grid-column: 1/2;
         
     }
 }
