@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox(Recipe book)</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Flexbox Recipe Book">
+    <meta property="og:description" content="Explore delicious recipes in this beautifully designed responsive recipe book built with CSS Flexbox.">
+    <meta property="og:url" content="https://yourdomain.com/index.html">
+    <meta property="og:image" content="https://yourdomain.com/images/social-preview.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Flexbox Recipe Book">
+    <meta name="twitter:description" content="Explore delicious recipes in this beautifully designed responsive recipe book built with CSS Flexbox.">
+    <meta name="twitter:image" content="https://yourdomain.com/images/social-preview.png">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="brand">
+            <img src="recipe-book.png" alt="" class="recipe">
+            <div class="logo">The Recipe Book</div>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search recipes..." class="search-input">
+            <button class="search-btn" aria-label="Search"></button>
+        </div>
+    </header>
+
+    <main class="recipe-card">
+        
+        <section class="card-left">
+            <img src="recipe.jpg" alt="Delicious apple crisp in a baking dish" class="main-img">
+            
+            <div class="social">
+                <a href="#"><img src="instagram_icon.svg" alt="Instagram icon"></a>
+                <a href="#"><img src="youtube_icon.svg" alt="YouTube icon"></a>
+                <a href="#"><img src="pinterest_icon.svg" alt="Pinterest icon"></a>
+            </div>
+        </section>
+
+        <section class="card-right">
+            <h1 class="title">Delicious Apple Crisp</h1>
+            
+
+            <span
+                class="rating"
+                role="img"
+                aria-label="Rating: 4 out of 5 stars"
+            >
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star-empty">☆</span>
+            </span>
+                
+
+            <p class="description">
+                This warm, comforting apple crisp features perfectly spiced baked apples topped with a buttery, crispy oat streusel. Perfect for a cozy evening!
+            </p>
+        </section>
+
+    </main>
+</body>
+</html>
