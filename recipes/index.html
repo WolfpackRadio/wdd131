@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
     
     <meta property="og:type" content="website">
     <meta property="og:title" content="Flexbox Recipe Book">
@@ -29,49 +30,15 @@
 
     <header class="site-header">
         <div class="brand">
-            <img src="recipe-book.png" alt="" class="recipe">
+            <img src="images/recipe-book.png" alt="" class="recipe">
             <div class="logo">The Recipe Book</div>
         </div>
         <div class="search-container">
-            <input type="text" placeholder="Search recipes..." class="search-input">
+            <input id="search" type="text" placeholder="Search recipes..." class="search-input">
             <button class="search-btn" aria-label="Search"></button>
         </div>
     </header>
 
-    <main class="recipe-card">
-        
-        <section class="card-left">
-            <img src="recipe.jpg" alt="Delicious apple crisp in a baking dish" class="main-img">
-            
-            <div class="social">
-                <a href="#"><img src="instagram_icon.svg" alt="Instagram icon"></a>
-                <a href="#"><img src="youtube_icon.svg" alt="YouTube icon"></a>
-                <a href="#"><img src="pinterest_icon.svg" alt="Pinterest icon"></a>
-            </div>
-        </section>
-
-        <section class="card-right">
-            <h1 class="title">Delicious Apple Crisp</h1>
-            
-
-            <span
-                class="rating"
-                role="img"
-                aria-label="Rating: 4 out of 5 stars"
-            >
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">☆</span>
-            </span>
-                
-
-            <p class="description">
-                This warm, comforting apple crisp features perfectly spiced baked apples topped with a buttery, crispy oat streusel. Perfect for a cozy evening!
-            </p>
-        </section>
-
-    </main>
+    <main id="recipe-container"></main>
 </body>
 </html>

@@ -65,7 +65,7 @@ body {
 }
 
 .search-btn {
-    background: url('search.svg') no-repeat center / contain;
+    background: url('images/search.svg') no-repeat center / contain;
     width: 24px;
     height: 24px;
     border: none;
@@ -75,6 +75,21 @@ body {
 
 .search-btn:hover {
     transform: scale(1.1);
+}
+
+#recipe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.no-results {
+    text-align: center;
+    color: #555;
+    font-size: 1.1rem;
+    padding: 40px 20px;
 }
 
 /* --- Main Recipe Card Container --- */
@@ -167,15 +182,5 @@ body {
     
     .card-right {
         padding: 25px;
-    }
-    
-    .prep-info {
-        flex-direction: column;
-        gap: 15px;
-        align-items: flex-start;
-    }
-    
-    .prep-info p {
-        flex-direction: row;
     }
 }
