@@ -1,5 +1,6 @@
 const searchResults = document.querySelector('#search-results');
 const searchInput = document.querySelector('#unit-search');
+const seeStatBlock = document.querySelector('.stat-panel')
 
 let statBlocks = []
 async function main() {
@@ -15,8 +16,15 @@ async function statBlockData() {
     return data;
 }
 
-function popStatBlocks() {
+function panelTemplate(){
+    return `<h2 id="stat-heading">${statBlock.monster_class}</h2>
+            <div id="stat-block-container">
+            <p class="empty-state">Select a unit from search results.</p>
+            </div>`;
+}
 
+function popStatBlocks(statBlock) {
+    
 }
 
 function popSearch(statBlocks) {
