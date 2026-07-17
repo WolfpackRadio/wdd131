@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dm Screen</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="module" src="js/main.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <h1>ADVENT DM Screen</h1>
+        <p class="site-tagline">XCOM setting stat block library</p>
+    </header>
+
+    <nav class="category-tabs" aria-label="Unit categories">
+
+    </nav>
+
+    <main id="main-content" class="layout">
+        <section class="search-panel" aria-labelledby="serch-heading">
+            <h2 id="serch-heading" class="visually-hidden">Search units</h2>
+            <label for="unit-search">Search stat blocks</label>
+            <input id="unit-search" type="search" autocomplete="off"
+            placeholder="Search by name, weapon, or trait…">
+            <ul id="search-results" class="results-list" role="listbox"
+            aria-label="Matching stat blocks"></ul>
+        </section>
+        <section class="stat-panel" aria-labelledby="stat-heading" aria-live="polite">
+            <h2 id="stat-heading">Stat Block</h2>
+            <div id="stat-block-container">
+                <p class="empty-state">Select a unit from search results.</p>
+            </div>
+        </section>
+    </main>
+
+    <dialog id="popout-dialog" aria-labelledby="popout-title">
+        <div class="popout-header" id="popout-drag-handle">
+            <h2 id="popout-title">Stat Block</h2>
+            <button type="button" id="close-popout" aria-label="Close popout">x</button>
+        </div>
+        <div id="popout-content"></div>
+    </dialog>
+    <footer>&copy; 2026 Hello ello!?!?! </footer>
+</body>
+</html>

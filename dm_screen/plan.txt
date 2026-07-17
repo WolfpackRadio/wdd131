@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dm Screen</title>
-    <link rel="stylesheet" href="styles/site-plan.css">
-</head>
-<body>
-    
 [Dm Screen] Project Plan
 Corey Lombardi
 WDD 131
@@ -39,6 +29,3 @@ static stat block with a button in the corner to make a popout of the stat block
 Create wireframes for your project page(s). One for each page and list them here.
 Landing page
     Its the Site plan jpg
-
-</body>
-</html>

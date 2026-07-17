@@ -1,0 +1,594 @@
+[
+    {
+        "monster_class": "Advent Trooper",
+        "ability_scores": {
+            "STR": {
+                "value": 12,
+                "proficient": false,
+                "modifiers": [
+                    "+1",
+                    "+1"
+                ]
+            },
+            "DEX": {
+                "value": 14,
+                "proficient": true,
+                "modifiers": [
+                    "+2",
+                    "+2"
+                ]
+            },
+            "CON": {
+                "value": 10,
+                "proficient": false,
+                "modifiers": [
+                    "0",
+                    "0"
+                ]
+            },
+            "INT": {
+                "value": 14,
+                "proficient": false,
+                "modifiers": [
+                    "+2",
+                    "+2"
+                ]
+            },
+            "WIS": {
+                "value": 8,
+                "proficient": true,
+                "modifiers": [
+                    "-1",
+                    "-1"
+                ]
+            },
+            "CHA": {
+                "value": 10,
+                "proficient": false,
+                "modifiers": [
+                    "0",
+                    "0"
+                ]
+            }
+        },
+        "skills": [
+            "Athletics",
+            "Insight",
+            "Stealth"
+        ],
+        "languages": [
+            "Advent"
+        ],
+        "movement": "30 ft",
+        "tiers": [
+            {
+                "tier_name": "Trooper",
+                "level": 1,
+                "hp": 3,
+                "armor": 0,
+                "ac": 15,
+                "proficiency_bonus": 2,
+                "initiative": 2,
+                "crit_bonus": 0,
+                "flank_bonus": 3,
+                "passive_perception": 12,
+                "actions": [
+                    {
+                        "name": "Mag Rifle MK1",
+                        "damage": "1d4 piercing",
+                        "crit_damage": 1,
+                        "shots": 3,
+                        "to_hit": "+4 to Hit"
+                    }
+                ],
+                "features": []
+            },
+            {
+                "tier_name": "Adv Trooper",
+                "level": 3,
+                "hp": 7,
+                "armor": 0,
+                "ac": 15,
+                "proficiency_bonus": 3,
+                "initiative": 2,
+                "crit_bonus": 0,
+                "flank_bonus": 6,
+                "passive_perception": 12,
+                "actions": [
+                    {
+                        "name": "Mag Rifle MK2",
+                        "damage": "1d6 piercing",
+                        "crit_damage": 2,
+                        "shots": 3,
+                        "to_hit": "+5 to Hit"
+                    },
+                    {
+                        "name": "Grenade",
+                        "damage": "1d4 Blunt",
+                        "range": "30 ft",
+                        "radius": "10 ft",
+                        "shred": 1
+                    }
+                ],
+                "features": []
+            },
+            {
+                "tier_name": "Elite Trooper",
+                "level": 5,
+                "hp": 12,
+                "armor": 0,
+                "ac": 15,
+                "proficiency_bonus": 4,
+                "initiative": 2,
+                "crit_bonus": 0,
+                "flank_bonus": 9,
+                "passive_perception": 12,
+                "actions": [
+                    {
+                        "name": "Mag Rifle MK3",
+                        "damage": "1d10 piercing",
+                        "crit_damage": 3,
+                        "shots": 3,
+                        "to_hit": "+6 to hit"
+                    },
+                    {
+                        "name": "Grenade",
+                        "notes": "Inherited from previous tier"
+                    }
+                ],
+                "features": []
+            }
+        ]
+    },
+    {
+        "monster_class": "Advent Gunner",
+        "ability_scores": {
+            "STR": {
+                "value": 14,
+                "proficient": true,
+                "modifiers": [
+                    "+2",
+                    "+2"
+                ]
+            },
+            "DEX": {
+                "value": 12,
+                "proficient": false,
+                "modifiers": [
+                    "+1",
+                    "+1"
+                ]
+            },
+            "CON": {
+                "value": 12,
+                "proficient": false,
+                "modifiers": [
+                    "+1",
+                    "+1"
+                ]
+            },
+            "INT": {
+                "value": 10,
+                "proficient": false,
+                "modifiers": [
+                    "0",
+                    "0"
+                ]
+            },
+            "WIS": {
+                "value": 8,
+                "proficient": true,
+                "modifiers": [
+                    "-1",
+                    "-1"
+                ]
+            },
+            "CHA": {
+                "value": 10,
+                "proficient": false,
+                "modifiers": [
+                    "0",
+                    "0"
+                ]
+            }
+        },
+        "skills": [
+            "Athletics",
+            "Survival"
+        ],
+        "languages": [
+            "Advent"
+        ],
+        "movement": "30 ft",
+        "tiers": [
+            {
+                "tier_name": "Gunner",
+                "level": 1,
+                "hp": 4,
+                "armor": 1,
+                "ac": 15,
+                "proficiency_bonus": 2,
+                "initiative": 1,
+                "crit_bonus": 0,
+                "flank_bonus": 6,
+                "passive_perception": 9,
+                "actions": [
+                    {
+                        "name": "Mag cannon MK1",
+                        "damage": "1d6 Piercing",
+                        "crit_damage": 1,
+                        "shots": 4,
+                        "to_hit": "+4 to Hit"
+                    }
+                ],
+                "features": [
+                    "Area Suppression"
+                ]
+            },
+            {
+                "tier_name": "Heavy Gunner",
+                "level": 3,
+                "hp": 7,
+                "armor": 1,
+                "ac": 15,
+                "proficiency_bonus": 3,
+                "initiative": 1,
+                "crit_bonus": 0,
+                "flank_bonus": 6,
+                "passive_perception": 9,
+                "actions": [
+                    {
+                        "name": "Mag cannon MK2",
+                        "damage": "1d8 piercing",
+                        "crit_damage": 2,
+                        "shots": 3,
+                        "to_hit": "+5 to Hit",
+                        "shred": 1
+                    },
+                    {
+                        "name": "Grenade",
+                        "damage": "1d4 Blunt",
+                        "range": "30 ft",
+                        "area": "10 ft",
+                        "shred": 1
+                    }
+                ],
+                "features": [
+                    "Area suppression",
+                    "Locked on"
+                ]
+            },
+            {
+                "tier_name": "Elite Gunner",
+                "level": 5,
+                "hp": 13,
+                "armor": 2,
+                "ac": 15,
+                "proficiency_bonus": 4,
+                "initiative": 1,
+                "crit_bonus": 0,
+                "flank_bonus": 6,
+                "passive_perception": 9,
+                "actions": [
+                    {
+                        "name": "Mag Cannon MK3",
+                        "damage": "1d10 Piercing",
+                        "crit_damage": 4,
+                        "shots": 3,
+                        "to_hit": "+6 to Hit",
+                        "shred": 2,
+                        "properties": [
+                            "1 AP"
+                        ]
+                    },
+                    {
+                        "name": "Grenade",
+                        "notes": "Inherited from previous tier"
+                    }
+                ],
+                "features": [
+                    "Area Suppression",
+                    "Locked on",
+                    "Covering Fire"
+                ]
+            }
+        ]
+    },
+    {
+        "monster_class": "Advent Sentry",
+        "ability_scores": {
+            "STR": {
+                "value": 10,
+                "proficient": false,
+                "modifiers": [
+                    "0",
+                    "0"
+                ]
+            },
+            "DEX": {
+                "value": 15,
+                "proficient": true,
+                "modifiers": [
+                    "+2",
+                    "+2"
+                ]
+            },
+            "CON": {
+                "value": 10,
+                "proficient": false,
+                "modifiers": [
+                    "0",
+                    "0"
+                ]
+            },
+            "INT": {
+                "value": 12,
+                "proficient": false,
+                "modifiers": [
+                    "+1",
+                    "+1"
+                ]
+            },
+            "WIS": {
+                "value": 14,
+                "proficient": true,
+                "modifiers": [
+                    "+2",
+                    "+2"
+                ]
+            },
+            "CHA": {
+                "value": 10,
+                "proficient": false,
+                "modifiers": [
+                    "0",
+                    "0"
+                ]
+            }
+        },
+        "skills": [
+            "Perception",
+            "Initiative",
+            "Stealth"
+        ],
+        "languages": [
+            "Advent"
+        ],
+        "movement": "30 ft",
+        "tiers": [
+            {
+                "tier_name": "Sentry",
+                "level": 2,
+                "hp": 3,
+                "armor": 1,
+                "ac": 16,
+                "proficiency_bonus": 2,
+                "initiative": 4,
+                "crit_bonus": 0,
+                "flank_bonus": 6,
+                "passive_perception": 14,
+                "actions": [
+                    {
+                        "name": "Mag Rifle MK1",
+                        "damage": "1d4 piercing",
+                        "crit_damage": 1,
+                        "shots": 3,
+                        "to_hit": "+4 to Hit"
+                    }
+                ],
+                "features": [
+                    "Ready for Anything"
+                ]
+            },
+            {
+                "tier_name": "Guardian",
+                "level": 4,
+                "hp": 6,
+                "armor": 1,
+                "ac": 16,
+                "proficiency_bonus": 3,
+                "initiative": 5,
+                "crit_bonus": 0,
+                "flank_bonus": 6,
+                "passive_perception": 15,
+                "actions": [
+                    {
+                        "name": "Mag Rifle MK2",
+                        "damage": "1d6 piercing",
+                        "crit_damage": 2,
+                        "shots": 3,
+                        "to_hit": "+5 to Hit"
+                    }
+                ],
+                "features": [
+                    "Ready for Anything",
+                    "Cool under pressure",
+                    "Guardian"
+                ]
+            },
+            {
+                "tier_name": "Sentinel",
+                "level": 6,
+                "hp": 13,
+                "armor": 2,
+                "ac": 16,
+                "proficiency_bonus": 4,
+                "initiative": 6,
+                "crit_bonus": 1,
+                "flank_bonus": 6,
+                "passive_perception": 16,
+                "actions": [
+                    {
+                        "name": "Mag Rifle MK3",
+                        "damage": "1d10 Piercing",
+                        "crit_damage": 3,
+                        "shots": 3,
+                        "to_hit": "+6 to Hit"
+                    },
+                    {
+                        "name": "Flash bang"
+                    }
+                ],
+                "features": [
+                    "Ready for Anything (RfA)",
+                    "Cool under pressure (CuP)",
+                    "Guardian",
+                    "Tactical sense"
+                ]
+            }
+        ]
+    },
+    {
+        "monster_class": "Stun Lancer",
+        "ability_scores": {
+            "STR": {
+                "value": 14,
+                "proficient": true,
+                "modifiers": [
+                    "+2",
+                    "+2"
+                ]
+            },
+            "DEX": {
+                "value": 12,
+                "proficient": false,
+                "modifiers": [
+                    "+1",
+                    "+1"
+                ]
+            },
+            "CON": {
+                "value": 10,
+                "proficient": false,
+                "modifiers": [
+                    "0",
+                    "0"
+                ]
+            },
+            "INT": {
+                "value": 14,
+                "proficient": false,
+                "modifiers": [
+                    "+2",
+                    "+2"
+                ]
+            },
+            "WIS": {
+                "value": 8,
+                "proficient": true,
+                "modifiers": [
+                    "-1",
+                    "-1"
+                ]
+            },
+            "CHA": {
+                "value": 10,
+                "proficient": false,
+                "modifiers": [
+                    "0",
+                    "0"
+                ]
+            }
+        },
+        "skills": [
+            "Initiative",
+            "Perception",
+            "Insight"
+        ],
+        "languages": [
+            "Advent"
+        ],
+        "movement": "45 ft",
+        "tiers": [
+            {
+                "tier_name": "Stun lancer",
+                "level": 2,
+                "hp": 4,
+                "armor": 0,
+                "ac": null,
+                "proficiency_bonus": 2,
+                "initiative": 3,
+                "crit_bonus": 0,
+                "flank_bonus": 6,
+                "passive_perception": 11,
+                "actions": [
+                    {
+                        "name": "Mag Rifle MK1",
+                        "damage": "1d4 piercing",
+                        "crit_damage": 1,
+                        "shots": 3,
+                        "to_hit": "+4 to Hit"
+                    },
+                    {
+                        "name": "Stun lance MK1",
+                        "damage": "1d4+2 lightning",
+                        "crit_damage": 2,
+                        "to_hit": "+5 to Hit",
+                        "save_dc": "Stun DC(10)"
+                    }
+                ],
+                "features": []
+            },
+            {
+                "tier_name": "Heavy lancer",
+                "level": 4,
+                "hp": 7,
+                "armor": 1,
+                "ac": null,
+                "proficiency_bonus": 3,
+                "initiative": 4,
+                "crit_bonus": 3,
+                "flank_bonus": 6,
+                "passive_perception": 12,
+                "actions": [
+                    {
+                        "name": "Mag Rifle MK1",
+                        "notes": "Inherited from previous tier"
+                    },
+                    {
+                        "name": "Stun lance MK2",
+                        "damage": "1d8+2 lightning",
+                        "crit_damage": 2,
+                        "to_hit": "+6 to Hit",
+                        "save_dc": "Stun DC(11)"
+                    }
+                ],
+                "features": [
+                    "Coup de Gr\u00e2ce: +10 to hit/crit +2dmg against stunned, disoriented, & panicking targets"
+                ]
+            },
+            {
+                "tier_name": "Elite lancer",
+                "level": 6,
+                "hp": 12,
+                "armor": 1,
+                "ac": null,
+                "proficiency_bonus": 4,
+                "initiative": 5,
+                "crit_bonus": 3,
+                "flank_bonus": 6,
+                "passive_perception": 13,
+                "actions": [
+                    {
+                        "name": "Mag Rifle MK2",
+                        "damage": "1d6 Piercing",
+                        "crit_damage": 2,
+                        "shots": 3,
+                        "to_hit": "+7 to Hit"
+                    },
+                    {
+                        "name": "Stun lance MK3",
+                        "damage": "1d10+2 lightning",
+                        "crit_damage": 4,
+                        "to_hit": "+8 to Hit",
+                        "save_dc": "Stun DC(14)"
+                    }
+                ],
+                "features": [
+                    "Coup de Gr\u00e2ce",
+                    "whirlwind: if you hit, +15ft mov"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+export const statBlocks = [
+  {
+    id: 'advent-trooper',
+    name: 'ADVENT Trooper',
+    category: 'infantry',
+    image: 'img/AdventTrooper_20.jpg',
+    tiers: ['Trooper', 'Adv Trooper', 'Elite Trooper'],
+    hp: [3, 7, 12],
+    armor: [0, 0, 0],
+    ac: 15,
+    movement: '30ft',
+    abilities: { str: 12, dex: 14, con: 10, int: 14, wis: 8, cha: 10 },
+    skills: ['Athletics', 'Insight', 'Stealth'],
+    languages: ['Advent'],
+    actions: [
+      {
+        tier: 'Trooper',
+        name: 'Mag Rifle MK1',
+        detail: '1d4 piercing; crit 1; 3 shots; +4 to hit'
+      }
+      // …
+    ],
+    traits: []
+  },
+  {
+    id: 'advent-trooper',
+    name: 'ADVENT Trooper',
+    category: 'infantry',
+    image: 'img/AdventTrooper_20.jpg',
+    tiers: ['Trooper', 'Adv Trooper', 'Elite Trooper'],
+    hp: [3, 7, 12],
+    armor: [0, 0, 0],
+    ac: 15,
+    movement: '30ft',
+    abilities: { str: 12, dex: 14, con: 10, int: 14, wis: 8, cha: 10 },
+    skills: ['Athletics', 'Insight', 'Stealth'],
+    languages: ['Advent'],
+    actions: [
+      {
+        tier: 'Trooper',
+        name: 'Mag Rifle MK1',
+        detail: '1d4 piercing; crit 1; 3 shots; +4 to hit'
+      }
+      // …
+    ],
+    traits: []
+  },
+  {
+    id: 'stun-lancer',
+    name: 'ADVENT Trooper',
+    category: 'infantry',
+    image: 'img/AdventTrooper_20.jpg',
+    tiers: ['Trooper', 'Adv Trooper', 'Elite Trooper'],
+    hp: [3, 7, 12],
+    armor: [0, 0, 0],
+    ac: 15,
+    movement: '30ft',
+    abilities: { str: 12, dex: 14, con: 10, int: 14, wis: 8, cha: 10 },
+    skills: ['Athletics', 'Insight', 'Stealth'],
+    languages: ['Advent'],
+    actions: [
+      {
+        tier: 'Trooper',
+        name: 'Mag Rifle MK1',
+        detail: '1d4 piercing; crit 1; 3 shots; +4 to hit'
+      }
+      // …
+    ],
+    traits: []
+  },
+  {
+    id: 'advent-trooper',
+    name: 'ADVENT Trooper',
+    category: 'infantry',
+    image: 'img/AdventTrooper_20.jpg',
+    tiers: ['Trooper', 'Adv Trooper', 'Elite Trooper'],
+    hp: [3, 7, 12],
+    armor: [0, 0, 0],
+    ac: 15,
+    movement: '30ft',
+    abilities: { str: 12, dex: 14, con: 10, int: 14, wis: 8, cha: 10 },
+    skills: ['Athletics', 'Insight', 'Stealth'],
+    languages: ['Advent'],
+    actions: [
+      {
+        tier: 'Trooper',
+        name: 'Mag Rifle MK1',
+        detail: '1d4 piercing; crit 1; 3 shots; +4 to hit'
+      }
+      // …
+    ],
+    traits: []
+  },
+];
