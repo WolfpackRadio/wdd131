@@ -11,7 +11,6 @@ function panelTemplate(statBlock){
       <p><strong>Languages:</strong> ${statBlock.languages.join(', ')}</p>
       <section class="ability-scores">${abilityScoresHtml(statBlock)}</section>
       <section class="tiers">${tiersHtml(statBlock)}</section>
-      <button type="button" class="popout-btn">Pop out</button>
     </article>
      `;
 }

@@ -1,6 +1,6 @@
 import { statBlockData } from "./data.js";
 import { initSearch } from "./search.js";
-import { popStatBlocks } from "./statpanal.js";
+//import { popStatBlocks } from "./statpanal.js";
 
 
 async function main() {
@@ -9,7 +9,7 @@ async function main() {
 
     await initSearch()
     
-    popStatBlocks(statBlocks[0])
+    //popStatBlocks(statBlocks[0])
 }
 
 
