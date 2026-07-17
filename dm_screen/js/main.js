@@ -1,32 +1,31 @@
 const searchResults = document.querySelector('#search-results');
-const searchInput = document.querySelector('#search');
-const searchButton = document.querySelector('.search-btn');
+const searchInput = document.querySelector('#unit-search');
 
 let statBlocks = []
-async function main(){
+async function main() {
     statBlocks = await statBlockData();
     popSearch(statBlocks)
     console.log(statBlocks);
-   
+    searchInput.addEventListener('input', search);
 }
 
-async function statBlockData(){
+async function statBlockData() {
     const res = await fetch('dnd_advent_stat_blocks.json');
     const data = await res.json();
     return data;
 }
 
-function popStatBlocks(){
+function popStatBlocks() {
 
 }
 
-function popSearch(statBlocks){
+function popSearch(statBlocks) {
     const searchResultsHtml = statBlocks.map(unitRow).join('');
     searchResults.innerHTML = searchResultsHtml
 
 }
 
-function unitRow(statBlock){
+function unitRow(statBlock) {
     return `<li>
             <button class="search-result" type="button">
             <h2>${statBlock.monster_class}</h2>
@@ -35,30 +34,22 @@ function unitRow(statBlock){
             </li>`;
 }
 
-function search() {
-	const query = searchInput.value;
-	// const filtered = statBlocks.filter(statBlock => matchesSearch(statBlock, query));
-	// const sorted = filtered.sort(compareByName);
-	// renderRecipes(sorted);
+function matchesSearch(statBlock, query) {
+	const q = query.toLowerCase();
+	return (
+		statBlock.monster_class.toLowerCase().includes(q) ||
+		statBlock.type.toLowerCase().includes(q) ||
+		statBlock.skills.find(skill => skill.toLowerCase().includes(q))
+	);
 }
 
-// searchButton.addEventListener('click', search);
-// searchInput.addEventListener('keypress', (event) => {
-// 	if (event.key === 'Enter') search();
-// });
-
-
-
-
-
-
-
-
-
-
-
-
-
+function search() {
+    const query = searchInput.value;
+    console.log(query);
+    
+    const filtered = statBlocks.filter(statBlock => matchesSearch(statBlock, query));
+    popSearch(filtered);
+}
 
 
 
