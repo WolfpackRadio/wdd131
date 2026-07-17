@@ -1,6 +1,7 @@
 [
     {
         "monster_class": "Advent Trooper",
+        "type": "infantry",
         "ability_scores": {
             "STR": {
                 "value": 12,
@@ -142,6 +143,7 @@
     },
     {
         "monster_class": "Advent Gunner",
+        "type": "infantry",
         "ability_scores": {
             "STR": {
                 "value": 14,
@@ -296,6 +298,7 @@
     },
     {
         "monster_class": "Advent Sentry",
+        "type": "infantry",
         "ability_scores": {
             "STR": {
                 "value": 10,
@@ -440,6 +443,7 @@
     },
     {
         "monster_class": "Stun Lancer",
+        "type": "infantry",
         "ability_scores": {
             "STR": {
                 "value": 14,
