@@ -1,4 +1,5 @@
 import { statBlockData } from "./data.js";
+import { popStatBlocks } from "./statpanal.js";
 
 const searchResults = document.querySelector('#search-results');
 const searchInput = document.querySelector('#unit-search');
@@ -33,9 +34,19 @@ function search() {
     popSearch(filtered);
 }
 
+async function handleSearchSelection(event){
+    const selected = event.target.closest('li')
+    if(! selected)
+        return;
+    const monster_class = selected.querySelector('h2').textContent
+    const allStatBlocks = await statBlockData()
+    const statBlock = allStatBlocks.find((stat) => stat.monster_class == monster_class);
+    popStatBlocks(statBlock)
+}
+
 export async function initSearch() {
     const statBlocks = await statBlockData();
     popSearch(statBlocks);
     searchInput.addEventListener('input', search);
-
+    searchResults.addEventListener('click', handleSearchSelection)
 }
