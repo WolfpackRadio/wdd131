@@ -1,0 +1,85 @@
+I read all **57** photos in `dm_screen/statblock pics`. Here is what I could not fully resolve, then a content summary.
+
+## Things that are missing, blank, or unclear
+
+**Fully missing from the sequence (no file):**
+- `IMG_6901`, `IMG_6920`, `IMG_6924`
+
+**Blank / intentionally unfinished:**
+| Image | Issue |
+|-------|--------|
+| **IMG_6869** (Naja R1) | Plasma Sniper MK1 `crit dmg` is written as **`?`** |
+| **IMG_6878** (Stun Lancer) | **AC** left blank; Heavy Lancer Mag Rifle MK1 stats not filled |
+| **IMG_6881** (Rocketeer) | Adv/Elite **Rocket** details not written out |
+| **IMG_6886** (Shieldbearer) | **Skills** and **Senses** left blank |
+| **IMG_6888** (Priest) | **Initiative** left blank |
+| **IMG_6904** | **Tradecraft** is only a note: “something for Stealth?” |
+| **IMG_6906** | **Watch them Run** has no description; 1–2 other faint lines look unfinished |
+| **IMG_6921** | **Cyclic Fire** is marked **`???`** with no description |
+| **IMG_6922** | **Chaining Jolt** says “finish later” |
+| **IMG_6923** | **Scrap metal** is incomplete (“do something with the sawed-off”) |
+| **IMG_6911** | One ability line is **crossed out / unreadable** |
+
+**Ambiguous / hard to resolve (readable enough to guess, not certain):**
+| Image | Ambiguity |
+|-------|-----------|
+| **IMG_6872** | Flank bonus may be **3** or **5** |
+| **IMG_6881** | WIS base score a bit smudged (looks like **8**) |
+| **IMG_6899** | Flamethrower “30 Zone” may mean **cone** |
+| **IMG_6900** | Micro Missile radius **`3(10)`** meaning unclear |
+| **IMG_6914** | One word in Covering Fire hard to read (“Lower/Layer”) |
+| Several sheets | Abbreviations like **AP**, **DGG**, **RFA**, **CCS**, **CtP** appear without full definitions |
+
+**Spelling/consistency only (readable, but you’ll want to normalize in JSON):**
+- Repeated: *Initive*, *Immu*, *chasis*, *allys*, *Hasmat/Hazmat*, *sargeant*, *Grimlin/Gremlin*, *Chiyyssalid*, etc.
+
+Overall: **almost everything is readable**. The main gaps are blank fields, unfinished feats, and a few abbreviations.
+
+---
+
+## Summary of contents
+
+This folder is your **handwritten rulebook / stat library** for an XCOM-to-tabletop system. It breaks into four big groups:
+
+### 1. Alien / Viper / Chryssalid units (IMG_6868–6876)
+Stat blocks with shared ability scores and tiered upgrades:
+- **Neonate Viper** (weak grunt; auto rifle / shotgun / bolt caster / sniper options)
+- **Naja** (sniper, R1–R3)
+- **Sidewinder** (fast skirmisher, R1–R3)
+- **Viper** (bind/crush, poison spit, tongue pull; R1–R3 weapons)
+- **Mechtoid** (plasma cannon, mech chassis)
+- **Sectoid Adept / Necromancer** and **Sectoid Trooper / Mage** (psionics + plasma)
+- **Chryssalid Worker / Warrior** and **Hive Queen** (melee, burrow, poison)
+
+### 2. ADVENT units (IMG_6877–6896)
+Same format as your earlier notes / current JSON:
+- Trooper, Stun Lancer, Gunner, Sentry, Rocketeer, Purifier  
+- Shock Trooper, Vanguard, Sergeant, Shieldbearer, Engineer/Grenadier  
+- Priest (Missionary/Bishop), Scout, Commando, Officer, General  
+- Drone/Hunter Drone, MEC, Turret, **Sectopod**
+
+### 3. Armories / weapons (IMG_6897–6900)
+Reference lists, not creature sheets:
+- **Alien Armory:** plasma/psionic weapons, utilities, melee  
+- **Advent Armory:** Mag rifles/cannons/SMG/shotgun/pistol + utilities  
+- Continuation page for stun lances, grenades, rockets, Sectopod weapons  
+
+### 4. Feats / abilities by level & class (IMG_6902–6927)
+Player/NPC progression (ability-point costs) plus robot and Gremlin trees:
+- **Pistol feats**
+- Background/reward feats (Fortify, Tactical Sense, Locked On, etc.)
+- **Spark / S.H.I.V. / MEC** ability trees (Squire → Templar tiers)
+- **Level 1–8 feats** (5 → 40 ability points), covering Run & Gun, Suppression, Shadowstep, Killzone, Serial, etc.
+- Many **Gremlin-only** specialist abilities (Aid/Medical Protocol, hacking, Rescue Protocol, etc.)
+
+---
+
+## Big picture
+
+This is not “just portraits.” It’s the full design corpus for your DM screen:
+
+1. **Creature/stat blocks** (ADVENT + aliens)  
+2. **Weapon catalogs**  
+3. **Feat/ability unlock trees** for soldiers and robotic units  
+
+If you want next, I can turn the unclear/unfinished list into a checklist for you to fill in, or draft a plan to digitize these sheets into JSON for the DM screen.

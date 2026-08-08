@@ -1,0 +1,47 @@
+# Handwritten stat sheet clarifications
+
+Source: photos in [`dm_screen/statblock pics/`](dm_screen/statblock pics/), clarified in Q&A. Use these when filling [`dm_screen/dnd_advent_stat_blocks.json`](dm_screen/dnd_advent_stat_blocks.json) and related armory data. Separate from the UI work in the [Populate panelTemplate](populate_paneltemplate_034fbf47.plan.md) plan.
+
+## Locked unit / weapon fixes
+
+- **Naja (IMG_6869):** Rank 1 Plasma Sniper MK1 crit dmg = **3**
+- **Stun Lancer (IMG_6878):** AC = **16** for Stun / Heavy / Elite; Heavy Lancer Mag Rifle MK1 = **same stats as Stun Lancer Mag Rifle MK1**
+- **Rocketeer (IMG_6881):** WIS = **8**; Adv/Elite rocket lines use the single **Advent Armory Rocket** (IMG_6900): `1d8 Blunt, 60 range, 10 radius, shred 1`
+- **Shieldbearer (IMG_6886):** Skills = **Perception** (proficient); Senses = **Passive Perception**; PP = **10 + Perception** (WIS mod ± proficiency when proficient)
+- **Priest (IMG_6888):** Initiative = **2**
+
+## Armory / AoE rules
+
+- **AP** = **Armor Piercing** (e.g. Mag Rifle MK4 “2 AP”, Target Focus “AP 4”)
+- **Micro Missile** (IMG_6894 / IMG_6900): **3 separate missiles**, each with a **10 ft radius**
+- **Flame Thrower** (IMG_6899): **30 ft cone**; Burn DC still open as formula detail later if needed
+- **Stun Lance** Stun DC = **8 + STR mod + proficiency**
+
+## Skills model
+
+- Skills list = **proficient skills**, and when the sheet writes a modifier, **include that modifier**
+- Do not invent modifiers when the sheet only names the skill (compute from ability + proficiency when needed)
+
+## Unfinished / omit (do not put in JSON until finished)
+
+- **Tradecraft** (IMG_6904)
+- **Watch them Run** (IMG_6906)
+- **Cyclic Fire** (IMG_6921)
+- **Chaining Jolt** (IMG_6922 — Gremlin, replaces Combat Protocol)
+- **Scrap metal** (IMG_6923)
+- Crossed-out **Focus** and **Tracking** on IMG_6911 — **discard**
+- Photo gaps **IMG_6901, IMG_6920, IMG_6924** — **do not exist** (not missing pages to wait for)
+
+## Explicitly deferred (ask again only when that unit is digitized)
+
+- **Mechtoid** flank / crit-chance note (IMG_6871)
+- Mec **Damage control**, Micro Missile tier scaling on Heavy/Superheavy
+- Mag Rifle MK4 die vs MK3
+- Full abbreviation pass (ask with unit sheet name when a term appears); known: **AP = Armor Piercing**
+- Broader system: Armor vs AC interaction; exact meaning of doubled `(+mod/+mod)` columns beyond save-style reads
+
+## When implementing data
+
+Apply the locked values above first for units already partly in JSON (and for Rocketeer / Stun Lancer / Shieldbearer / Priest / Naja / Mec missile text when those units are added). Omit listed unfinished feats. Look up Rocketeer rockets from armory rather than inventing Adv/Elite dice.
+
+UI rendering continues to follow [Populate panelTemplate](populate_paneltemplate_034fbf47.plan.md) (`panelTemplate`, click wiring, dark CSS).

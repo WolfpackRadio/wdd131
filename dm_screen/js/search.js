@@ -3,6 +3,7 @@ import { popStatBlocks } from "./statpanal.js";
 
 const searchResults = document.querySelector('#search-results');
 const searchInput = document.querySelector('#unit-search');
+let allUnits = [];
 
 function popSearch(statBlocks) {
     const searchResultsHtml = statBlocks.map(unitRow).join('');
@@ -19,19 +20,21 @@ function unitRow(statBlock) {
 }
 
 function matchesSearch(statBlock, query) {
-    const q = query.toLowerCase();
-    return (
-        statBlock.monster_class.toLowerCase().includes(q) ||
-        statBlock.type.toLowerCase().includes(q) ||
-        statBlock.skills.find(skill => skill.toLowerCase().includes(q))
-    );
+  const q = query.trim().toLowerCase();
+  if (!q) return true;
+  const skills = statBlock.skills ?? [];
+  return (
+    statBlock.monster_class.toLowerCase().includes(q) ||
+    (statBlock.type ?? "").toLowerCase().includes(q) ||
+    (statBlock.faction ?? "").toLowerCase().includes(q) ||
+    skills.some((skill) => skill.toLowerCase().includes(q))
+  );
 }
 
-function search() {
-    const query = searchInput.value;
 
-    const filtered = statBlocks.filter(statBlock => matchesSearch(statBlock, query));
-    popSearch(filtered);
+function search() {
+  const filtered = allUnits.filter((u) => matchesSearch(u, searchInput.value));
+  popSearch(filtered);
 }
 
 async function handleSearchSelection(event){

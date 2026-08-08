@@ -1,0 +1,1364 @@
+[
+  {
+    "name": "Clutch shot",
+    "category": "Pistol Feats",
+    "ability_point_cost": 5,
+    "description": "once per Encounter, Fire a pistol shot & Hit."
+  },
+  {
+    "name": "Faceoff",
+    "category": "Pistol Feats",
+    "ability_point_cost": 5,
+    "description": "Fire a pistol at every Hostile target you see, 3 turn cooldown."
+  },
+  {
+    "name": "Fanfire",
+    "category": "Pistol Feats",
+    "ability_point_cost": 5,
+    "description": "with your pistol, attack a target three times, 3 turn cooldown."
+  },
+  {
+    "name": "Gunslinger",
+    "category": "Pistol Feats",
+    "ability_point_cost": 5,
+    "description": "take an reaction shot against a target within 35ft of you, 3 turn cooldown."
+  },
+  {
+    "name": "lightning hand",
+    "category": "Pistol Feats",
+    "ability_point_cost": 5,
+    "description": "(Free action) attack with your Pistol."
+  },
+  {
+    "name": "Quick draw",
+    "category": "Pistol Feats",
+    "ability_point_cost": 5,
+    "description": "you can attack with your Pistol as a bonus action."
+  },
+  {
+    "name": "Magnum",
+    "category": "Pistol Feats",
+    "ability_point_cost": 5,
+    "description": "Pistol no longer have long range penalty."
+  },
+  {
+    "name": "Fortify",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "(Free action) +4 AC until the start of next turn, 3 turn cooldown."
+  },
+  {
+    "name": "Tactical Sense",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+1 Dex save for each enemy you see, up to 5."
+  },
+  {
+    "name": "Paramedic",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "As a bonus action, dash to a target & use a medkit on them, +2 uses on medkits."
+  },
+  {
+    "name": "Lick your wounds",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "Hunker down heals 2 HP, up to 8 HP, & can remove poison, burning, & acid burning."
+  },
+  {
+    "name": "Deep cover",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "If you don't attack this turn, Hunker immediately."
+  },
+  {
+    "name": "Shellshock",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "Grenades & rockets now cause targets to suffer -2 to Hit & -3 to crit for 1 turn."
+  },
+  {
+    "name": "Focused Defense",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "You get a +4 to AC/Dex save from the closest visible enemy while not flanked."
+  },
+  {
+    "name": "Dedication",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "(Free action) Gain 20ft mov & Ignore reaction fire for this turn, 4 turn cooldown."
+  },
+  {
+    "name": "Shredder Rocket",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "Your Rockets now have Shred/Rupture 3."
+  },
+  {
+    "name": "Moving target",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+3 AC & +10 Dex save against reaction attacks."
+  },
+  {
+    "name": "Maim",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "When you attack with a Ranged weapon - cause a target's mov to be 0, Dex save (8 + Dex + pro), 3 turn cooldown."
+  },
+  {
+    "name": "Resilience",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "targets have -6 to crit you."
+  },
+  {
+    "name": "Arc welder",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "you can use the 'Arc Thrower' to heal an allied Robotic unit for 4 hp, uses 2 charges."
+  },
+  {
+    "name": "Zone of control",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "targets within 15ft of you suffer a -3 to Hit & -1/2 move."
+  },
+  {
+    "name": "Like lightning",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "when Run & Gun is active, use your 'Arc Thrower'."
+  },
+  {
+    "name": "Locked on",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+4 to Hit & +2 crit for successive shots at the same target."
+  },
+  {
+    "name": "Infighter",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+8 to Dex saves against Attacks within 20ft."
+  },
+  {
+    "name": "Survival Instinct",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "Ranged attacks against flanked targets take +2 more dmg."
+  },
+  {
+    "name": "Unlimited power",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "using the 'Arc Thrower' is now a bonus action."
+  },
+  {
+    "name": "Target Focus",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "your ranged attacks have +2 to Hit & AP 1 against unflankable targets."
+  },
+  {
+    "name": "Aim",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "Hunker now gives you +4 to Hit/crit to your first attack next turn."
+  },
+  {
+    "name": "Reconnoiter",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "you can use a battle scanner as a Free action, 4 turn cooldown."
+  },
+  {
+    "name": "Predator",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+3 to Hit/crit against targets that are flanked or exposed."
+  },
+  {
+    "name": "Anatomy",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+3 Crit + AP2 to all attacks."
+  },
+  {
+    "name": "That's Close Enough",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "\"Arc Thrower\" overwatch."
+  },
+  {
+    "name": "Lock 'N Load",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "restore 1 ammo on kill."
+  },
+  {
+    "name": "Will to Survive",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "-1 dmg when in cover, +1 wis save."
+  },
+  {
+    "name": "Aim Assist",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+3 to Hit/crit against Tagged targets."
+  },
+  {
+    "name": "Steady Hands",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "If you haven't moved, +2 to Hit/crit."
+  },
+  {
+    "name": "Long watch",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "overwatch can trigger on squad sight."
+  },
+  {
+    "name": "Inspire Agility",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "(free action) Once per turn you can give a +6 Dex save to an ally until your next turn, start with one charge, gain a new charge per kill."
+  },
+  {
+    "name": "Sensor Overlays",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "allys get +2 crit against target you can see."
+  },
+  {
+    "name": "Priority targets",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+2 to Hit/Crit on Ranged attacks against the closest visible enemy."
+  },
+  {
+    "name": "Lead the target",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+4 to Hit, but you attack when your target takes an action, use all actions, 3 turn cooldown."
+  },
+  {
+    "name": "Concentration",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "your Graze attacks are normal Hits."
+  },
+  {
+    "name": "Covert",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+5 to Stealth."
+  },
+  {
+    "name": "Trench warfare",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "If you get a kill, at the end of your turn automatically Hunker down."
+  },
+  {
+    "name": "Preservation",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "when stealth is broken, you gain +3 to AC for 2 turns."
+  },
+  {
+    "name": "Instant Reaction Time",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "+1 Dex save for every 5ft from the attacker."
+  },
+  {
+    "name": "Return Fire",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "If you are shot at, you can attack back with a ranged attack, once a turn, Ignore Cover for this attack."
+  },
+  {
+    "name": "Apex predator",
+    "category": "Background/Reward/Learning Feats",
+    "ability_point_cost": null,
+    "description": "Crits on targets have a chance to panic them, wis save (8+wis+pro)."
+  },
+  {
+    "name": "Overdrive",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": null,
+    "description": "you can perform 3 main Action, If you attack you get -3 to Hit."
+  },
+  {
+    "name": "Kinetic Strike",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": null,
+    "description": "(6dmg T1 / 8dmg T2 / 10dmg T3) 3 turn cooldown."
+  },
+  {
+    "name": "Reboot",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": null,
+    "description": "If you are reduced to 0HP, drop to 1HP instead + become shielded for the turn, Once per encounter, ends/skips your turn."
+  },
+  {
+    "name": "Repair",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": null,
+    "description": "Heal 1d8+con HP, repair all shredded armor, + remove acid."
+  },
+  {
+    "name": "Mechanical Chassis",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": null,
+    "description": "Immune to Fire + Poison."
+  },
+  {
+    "name": "Neutralize protocol",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 10,
+    "description": "(bonus Action) Force enemy to Reload, 3 turn cooldown."
+  },
+  {
+    "name": "Zone of Control",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 10,
+    "description": "All enemies within 25ft of you suffer -3 to Hit + -20 MOV."
+  },
+  {
+    "name": "Flush",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 10,
+    "description": "(Action) make a Shot, +6 to hit, 1/2 damage, cannot crit or apply bonus effects, must not be concealed, -2AC/-6 Dex Save: 1 turn, 3-turn cooldown."
+  },
+  {
+    "name": "ERS",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 15,
+    "description": "Reboot no longer ends/skips your turn, uses Repair, + gives 1 more repair use."
+  },
+  {
+    "name": "Cutthroat",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 15,
+    "description": "Melee attacks on Bio Targets Ignore armor, have +3 to crit, + +2 crit dmg."
+  },
+  {
+    "name": "Center Mass",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 15,
+    "description": "+2 dmg with guns."
+  },
+  {
+    "name": "Arsenal",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 20,
+    "description": "you can use a Heavy weapon."
+  },
+  {
+    "name": "Assault Servos",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 20,
+    "description": "+2 dmg/hit to melee attacks."
+  },
+  {
+    "name": "ETS",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 20,
+    "description": "remove debuff from Overdrive & targets you attack are Holo Targeted."
+  },
+  {
+    "name": "EDS",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 25,
+    "description": "you can redirect attacks from your Allys to yourself +3 dmg if you are targeted for any attacks to your attacks."
+  },
+  {
+    "name": "Counter Strike",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 25,
+    "description": "(free reaction) any enemy that moves within 5ft of you, provokes an melee strike; (strmod.dmg)."
+  },
+  {
+    "name": "Shredder",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 25,
+    "description": "+2 shred to weapons."
+  },
+  {
+    "name": "Bombard",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 30,
+    "description": "Launch the Bit for (1d4 T1 / 1d6 T2 / 1d8 T3 Force) in a 10ft radius."
+  },
+  {
+    "name": "Concussive Strike",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 30,
+    "description": "(Free Attack) 1d4 Blunt dmg, stun CON save (8+STR+PRO) for 2 turns. Can't target Robotic units, 4 turn cooldown. -1 turn cooldown for Kinetic Strike."
+  },
+  {
+    "name": "Traverse Fire",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 30,
+    "description": "+1 extra attack."
+  },
+  {
+    "name": "Blast master",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 35,
+    "description": "+2dmg to Heavy weapons & they are now a bonus action."
+  },
+  {
+    "name": "Nova",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 35,
+    "description": "in a 30ft radius, you can cause an explosion of energy as a free action (1d10 Force), but you suffer 2/3/4 self dmg."
+  },
+  {
+    "name": "Collateral Damage",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 35,
+    "description": "you can attack in a 15ft radius & destroy all cover & deal 3 dmg to targets. 4 turn cooldown 2 ammo."
+  },
+  {
+    "name": "Prep for war",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 40,
+    "description": "+1 use to Heavy weapons & bombard, if you have Assault Servos (+2dmg to strike & -1 to cooldown). If you have BIT (+2 to Hit & the Avenger)."
+  },
+  {
+    "name": "Impact Compensation",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 40,
+    "description": "After taking damage, gain a 1/4 dmg reduction, up to 4/4, until the end of your turn."
+  },
+  {
+    "name": "Disabling shot",
+    "category": "Spark/SHIV/MEC",
+    "ability_point_cost": 40,
+    "description": "Stun a target with an attack for 4 turn or if you crit stun for 3 turns & deal No crit dmg."
+  },
+  {
+    "name": "Stun",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you are proficient with the \"Arc Thrower\"."
+  },
+  {
+    "name": "Run & Gun",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "Take an action after dashing."
+  },
+  {
+    "name": "Dedication",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "\"Free Action use\" +10 Mov and ignore reaction fire, 4 turn cooldown."
+  },
+  {
+    "name": "Flush",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "(Attack Action) +1 to Hit, on Hit target gets -1 to AC/Dex save & must move from current position."
+  },
+  {
+    "name": "Launch Grenade",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "You are proficient with the \"Grenade Launcher\" & you can hold double the amount of Grenades."
+  },
+  {
+    "name": "Knife Fighter",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you are proficient with Knives."
+  },
+  {
+    "name": "Suppression",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "Pin a target with a reaction fire, If they move. Restricts some abilitys & -5 to Hit."
+  },
+  {
+    "name": "Area Suppression",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "(Requires cannons, Auto Cannons, Mec weapons) does the same as Normal suppression, but with a 20 ft radius."
+  },
+  {
+    "name": "Point Blank",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you are proficient with the \"sawed-off shotgun\"."
+  },
+  {
+    "name": "Both Barrels",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "Once per encounter, Double the damage of the sawed-off shotgun."
+  },
+  {
+    "name": "Marauder",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "+1 extra Attack."
+  },
+  {
+    "name": "Holo targeter",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you are proficient with the \"Holo targeter\"."
+  },
+  {
+    "name": "Squadsight",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you can target enemies within Allys sight lines, as long as, there is nothing in the way."
+  },
+  {
+    "name": "Phantom",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "when squad is revealed, you are keeped concealed."
+  },
+  {
+    "name": "Slash",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you are proficient with \"swords\"."
+  },
+  {
+    "name": "Fleche",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you dash & for every 10ft you move +1dmg with your sword attack."
+  },
+  {
+    "name": "Heavy weapons",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you are proficient with the \"gauntlet\"."
+  },
+  {
+    "name": "Interference",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "just cancel overwatch on a target, once per turn (Requires a Gremlin)."
+  },
+  {
+    "name": "Hack",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "use the INT (Arcana) skill to Hack."
+  },
+  {
+    "name": "Haywire protocol",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you can attempt to control a robotic target."
+  },
+  {
+    "name": "Aid Protocol",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "(Requires a Gremlin) give yourself or an ally a +4 T1/ +6 T2/ +8 T3 to AC + Dex saves."
+  },
+  {
+    "name": "Combat Protocol",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "(Requires a Gremlin) give a jolt to a target doing 1d4 T1/ 1d6 T2/ 1d8 T3 (lightning) & if the target is Robotic +2/4/6."
+  },
+  {
+    "name": "Ripjack Slash",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you are proficient with \"Ripjack\" (Bonus Action Attack)."
+  },
+  {
+    "name": "Rend",
+    "category": "Level 1 Feats",
+    "ability_point_cost": 5,
+    "description": "you are proficient with \"psy blades\" generate focus on kill."
+  },
+  {
+    "name": "Slug Shot",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "(shotgun only) fire a shot that has AP 2, uses 1 ammo, 2 turn cooldown."
+  },
+  {
+    "name": "Electroshock",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "(Arc Thrower only) misses with your Arc Thrower disorients its target."
+  },
+  {
+    "name": "Lone Wolf",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "when 20 ft away from an ally, +1 to Hit/AC + +1 to Hit/AC per 5ft until 35 ft. No AC bonus if impaired."
+  },
+  {
+    "name": "Needled Grenades",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "your explosives don't destroy loot + deal +1 dmg to unarmored enemies."
+  },
+  {
+    "name": "Holo Targeting",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "Mark your target when you Attack, giving your Allys a +1 to Hit."
+  },
+  {
+    "name": "Rapid Deployment",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "you can fire your grenades as a bonus action."
+  },
+  {
+    "name": "Center Mass",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "+1 dmg."
+  },
+  {
+    "name": "Combatives",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "+2 to Dex save, parry attacks that graze or miss you + attack back."
+  },
+  {
+    "name": "Grazing Fire",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "missed attacks have Adv to dmg at 1/2 dmg."
+  },
+  {
+    "name": "Walk Fire",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "use 2 ammo, make an attack with +6 to Hit with a -6 to crit."
+  },
+  {
+    "name": "Close + Personal",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "+6 to crit on targets within 5ft."
+  },
+  {
+    "name": "Ever Vigilant",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "If you don't attack on your turn, you go into overwatch."
+  },
+  {
+    "name": "Death From Above",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "If you are at a Higher elevation, every kill you get, you get one more main action, +2 to Hit for Sniper/vector Rifles."
+  },
+  {
+    "name": "Rapid Targeting",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "you can \"HoloTarget\" as a free action, 4 turn cooldown."
+  },
+  {
+    "name": "Snap Shot",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "If you move first, you get Adv to an attack, but a -10 to Hit."
+  },
+  {
+    "name": "Ghostwalker",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "+10 to Stealth for 2 turns, 4 turn cooldown."
+  },
+  {
+    "name": "Blademaster",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "+1 dmg & +2 to Hit with melee attacks."
+  },
+  {
+    "name": "Fire in the Hole",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "Target auto fail on a 5 or lower on the die."
+  },
+  {
+    "name": "Rapid Fire",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "you can attack twice with a -3 to Hit for each, once per turn."
+  },
+  {
+    "name": "Napalm-X",
+    "category": "Level 2 Feats",
+    "ability_point_cost": 10,
+    "description": "target must make a wis save or be panicked if set on fire, +1 dmg per turn."
+  },
+  {
+    "name": "Aid protocol",
+    "category": "Gremlin",
+    "ability_point_cost": 10,
+    "description": "+4/5/6 to AC to you or an ally."
+  },
+  {
+    "name": "Haywire protocol",
+    "category": "Gremlin",
+    "ability_point_cost": 10,
+    "description": "Attempt a Hack (Arcana(tech)) Skill Check to control a Robotic target, 4 turn cooldown."
+  },
+  {
+    "name": "Combat Protocol",
+    "category": "Gremlin",
+    "ability_point_cost": 10,
+    "description": "deal 2(4)/5(9)/8(14) lightning dmg, () bonus dmg to Robotic targets, in sight."
+  },
+  {
+    "name": "Trench Gun",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "Fire all shots. All targets in a 30ft cone must make a Dex DC save (8+Dex+Pro) or take a die of damage per ammo used."
+  },
+  {
+    "name": "Arc Pulser",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "The \"Arc Thrower\" now deals dmg 1d4/1d8/1d12 to robotic targets on Hit."
+  },
+  {
+    "name": "Sapper",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "your grenades can destroy heavy cover."
+  },
+  {
+    "name": "Combat Fitness",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "+4 to Hit, +10ft mov, +2 HP, +4 Wis/Dex save."
+  },
+  {
+    "name": "Bombardier",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "+20ft range to grenade throws or launch."
+  },
+  {
+    "name": "Formidable",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "+2 Armor + 1/2 dmg from Explosive damage."
+  },
+  {
+    "name": "Lockdown",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "+4 to Hit on target under suppression."
+  },
+  {
+    "name": "Locked On",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "+4 to Hit + +2 to crit after the first shot on the same target."
+  },
+  {
+    "name": "Quick Load",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "reload as a bonus action."
+  },
+  {
+    "name": "Covering Fire",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "Overwatch triggers on any hostile action, not just movement. Ignore 1/2 cover + Lower."
+  },
+  {
+    "name": "Damn Good Ground",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "+2 to Hit/AC against targets at Lower elevation."
+  },
+  {
+    "name": "Shadowstep",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "you don't trigger overwatch or reaction fire."
+  },
+  {
+    "name": "Executioner",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "+3 to Hit/crit against targets at half or less HP."
+  },
+  {
+    "name": "Combative",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "Auto Parry melee attacks that graze or miss. you get an attack back, +2 to Dex save."
+  },
+  {
+    "name": "Field Surgeon",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "Adv on medical checks, target heals (Hitdie-2) Hp after performing any medical check."
+  },
+  {
+    "name": "Sentinel",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "you take 2 reaction shots when in overwatch."
+  },
+  {
+    "name": "Trojan",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "Targets that are Hacked take 1d8 dmg + lose a turn, when Hack effect ends."
+  },
+  {
+    "name": "Concussion Rocket",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "once an encounter, you can fire a special rocket for 2dmg + disorient + must make a Con save (8+con mod+pro) or Be Stunned, 15ft radius."
+  },
+  {
+    "name": "Roust",
+    "category": "Level 3 Feats",
+    "ability_point_cost": 15,
+    "description": "in a 90ft line with a \"flamethrower\" Targets must make a Dex sav or be Hit + set on Fire, target must move from there position, target suffers, -10 mov + -2 AC."
+  },
+  {
+    "name": "Killer Instinct",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "Run & Gun now gives a +10 crit dmg for the turn."
+  },
+  {
+    "name": "Stun Gunner",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "+6 to Hit with the Arc Thrower."
+  },
+  {
+    "name": "Fortify",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "+4 AC until next turn, Free action, 3 turn cooldown."
+  },
+  {
+    "name": "Boosted cores",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "all Grenades do +1 damage."
+  },
+  {
+    "name": "Bluescreen Bombs",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "Flashbangs now disorient robotic units & -5 Int save."
+  },
+  {
+    "name": "Hail of Bullets",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "Guaranteed to Hit for .75 shots, No crit, uses 3 Ammo."
+  },
+  {
+    "name": "Shredder",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "your attacks have Shred 1."
+  },
+  {
+    "name": "Mayhem",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "+5 dmg against targets who move when suppressed."
+  },
+  {
+    "name": "Aggression",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "+1 crit for each enemy you can see, up to 6."
+  },
+  {
+    "name": "Cool under pressure",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "+2 to hit on overwatch & Reaction fire & now they can crit."
+  },
+  {
+    "name": "Precision Shot",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "you can take a shot with +6 to crit & +4 crit dmg, 4 turn cooldown."
+  },
+  {
+    "name": "Hi Def Holo",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "+2/3/4 to crit on a target you tag."
+  },
+  {
+    "name": "Covert",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "+5 to stealth."
+  },
+  {
+    "name": "Impulse",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "ranged attacks +2 to Hit/crit, if you have moved this turn."
+  },
+  {
+    "name": "Cutthroat",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "your melee attacks against bio targets Ignore Armor & +1 to crit, +2 crit dmg."
+  },
+  {
+    "name": "Biggest Booms",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "your grenades + Rockets can now crit, +3 crit/crit dmg."
+  },
+  {
+    "name": "Burn out",
+    "category": "Level 4 Feats",
+    "ability_point_cost": 20,
+    "description": "after using your \"flame thrower\", it leaves smoke in 20ft giving +4 AC."
+  },
+  {
+    "name": "Medical Protocol",
+    "category": "Gremlin",
+    "ability_point_cost": 20,
+    "description": "you can use the Gremlin to Heal, stabilize."
+  },
+  {
+    "name": "Failsafe",
+    "category": "Gremlin",
+    "ability_point_cost": 20,
+    "description": "you no longer get negative effects from failed Hacks."
+  },
+  {
+    "name": "Extra Conditioning",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "Run & Gun has -1 cool down."
+  },
+  {
+    "name": "T.H.E.A.T.W",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "your Grenades Have AP2."
+  },
+  {
+    "name": "Dense Smoke",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "+2 AC given to smoke Grenades."
+  },
+  {
+    "name": "Chain Shot",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "you can fire a shot with a -2 to Hit, If you Hit Attack again normally."
+  },
+  {
+    "name": "Demolition",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "(Attack action) Reduce or destroy cover in a 15ft area. Exp (2/3 -> 1/2 or 1/2 -> 1/4 or 1/4 -> None)."
+  },
+  {
+    "name": "Danger zone",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "Area suppression now targets a 30ft area."
+  },
+  {
+    "name": "Open Fire",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "+2 to Hit/crit if your target is at full HP."
+  },
+  {
+    "name": "Avenger",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "once a turn, take a reaction shot with a ranged weapon on a target that has taken a Offensive action, Ignore cover for this shot."
+  },
+  {
+    "name": "Low Profile",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "for you 1/4 cover is 1/2 cover, etc., etc."
+  },
+  {
+    "name": "Independent Tracking",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "The Tag from \"Holo targeter\" lasts one more turn."
+  },
+  {
+    "name": "Reposition",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "once a turn, Gain a dash after attacking a flanked or Exposed target."
+  },
+  {
+    "name": "Shadow Strike",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "while stealthed, you have +10 to Hit/crit."
+  },
+  {
+    "name": "Evasive",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "you have +20 Dex Save, goes away if damaged, resets per mission/encounter."
+  },
+  {
+    "name": "Bladestorm",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "reaction attack on targets with melee weapons, when the target gets within range."
+  },
+  {
+    "name": "Javelin Rockets",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "your rockets can now Hit targets that you can't see."
+  },
+  {
+    "name": "Phosphorus",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "your \"Flamethrower\" flames Ignore Fire Immunities + Shred 1."
+  },
+  {
+    "name": "Ever Vigilant",
+    "category": "Level 5 Feats",
+    "ability_point_cost": 25,
+    "description": "If you have used your Main + bonus action, you go into overwatch."
+  },
+  {
+    "name": "Neutralizing Agents",
+    "category": "Gremlin",
+    "ability_point_cost": 25,
+    "description": "Aid Protocol now gets rid of the Fire, Poison, Acid + bleeding conditions."
+  },
+  {
+    "name": "Airdrop",
+    "category": "Gremlin",
+    "ability_point_cost": 25,
+    "description": "you can give an ally a Frag grenade to use, can be used 2 times per mission/or until you reload the Gremlin."
+  },
+  {
+    "name": "Hit & Run",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "Once per turn, gain an additional main action after attacking a Flanked or Exposed target with a Ranged weapon, can't trigger with \"Close Encounters\"."
+  },
+  {
+    "name": "Close Encounters",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "Once per turn, gain an additional bonus action after attacking a target within 20 ft, with a Ranged weapon, can't trigger with \"Hit & Run\"."
+  },
+  {
+    "name": "Rapid Fire",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "Once a turn, you can fire twice at a target with a -3 to Hit."
+  },
+  {
+    "name": "Biggest Booms",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "your grenades + rockets can now crit (+3 crit dmg)."
+  },
+  {
+    "name": "Combat Engineer",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "double the effect of sapper."
+  },
+  {
+    "name": "Sting Grenades",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "flashbangs have a 50% to stun instead of disorient."
+  },
+  {
+    "name": "Iron Curtain",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "make an attack action for 1/2 dmg + for targets Hit suffer a -1/2 mov for 2 turns, Uses 3 ammo, 10 ft cone."
+  },
+  {
+    "name": "Bring 'Em Down",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "+1 crit dmg for every 2 enemies, up to 8."
+  },
+  {
+    "name": "Deadeye",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "you can take a shot as an attack action with a -3 to Hit + at +10 dmg, 3 Turn cooldown."
+  },
+  {
+    "name": "Vital Point Targeting",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "Attacks vs tagged targets take +1 (+2 if tag) more dmg."
+  },
+  {
+    "name": "Disabling Shot",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "as an action, attack a target + if you Hit, Stun them for 2 turns + another 2 turns if you crit (+crit dmg), 5 turn cooldown."
+  },
+  {
+    "name": "Reaper",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "as a bonus action, your first melee attack will Hit. if you Kill, your movement & main action is refreshed, each consecutive attack -3 dmg, 4 turn cooldown."
+  },
+  {
+    "name": "EMP Rocket",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "as an action, you can fire a special rocket that deals 2/3/4 dmg + Stuns Robotic targets for 2 turns, 25ft radius."
+  },
+  {
+    "name": "Rupture",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "as an action, gain +10 crit & the target suffers Rupture 3 for the rest of the encounter, uses 3 ammo, 4 turn cooldown."
+  },
+  {
+    "name": "Incinerator",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "+20ft to range & +10ft to cone."
+  },
+  {
+    "name": "Savior",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "all Healing, now heals 4 more HP."
+  },
+  {
+    "name": "Implacable",
+    "category": "Level 6 Feats",
+    "ability_point_cost": 30,
+    "description": "If you get a kill, +15 mov for your turn."
+  },
+  {
+    "name": "Lightning Reflexes",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "you can auto pass a Dex save = to your pro."
+  },
+  {
+    "name": "Close Combat Specialist",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "(Free action) you can make a reaction shot at a target within 20ft that moves or attacks."
+  },
+  {
+    "name": "Untouchable",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "If you get a kill, the next attack against you will miss."
+  },
+  {
+    "name": "Volatile Mix",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "your grenades area gains +5ft."
+  },
+  {
+    "name": "Sentinel",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "in overwatch, you can take 2 reaction shots."
+  },
+  {
+    "name": "Salvo",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "grenades + Heavy weapons are now a bonus action."
+  },
+  {
+    "name": "Killzone",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "take a reaction shot against any enemy that moves or attacks within the cone of fire (60ft cone)."
+  },
+  {
+    "name": "Rapid Reaction",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "while in overwatch, each shot you hit, gain another reaction shot, up to your Dex mod."
+  },
+  {
+    "name": "Multitargeting",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "you can now tag targets in a 20/25/30ft radius as a bonus action, 2 turn cooldown."
+  },
+  {
+    "name": "Hunter's Instincts",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "Ranged Attacks +2 dmg on flanked targets."
+  },
+  {
+    "name": "Whirlwind",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "If you hit with a melee attack on your turn, +15ft move."
+  },
+  {
+    "name": "Quickburn",
+    "category": "Level 7 Feats",
+    "ability_point_cost": 35,
+    "description": "Use your \"Flame Thrower\" as a Free action, 5 turn cooldown."
+  },
+  {
+    "name": "Rescue Protocol",
+    "category": "Gremlin",
+    "ability_point_cost": 35,
+    "description": "As a bonus action, use your Gremlin to grant the target +3 to Dex saves, +10ft movement. It can be used 2/3/4 times per encounter and refreshes movement."
+  },
+  {
+    "name": "Threat Assessment",
+    "category": "Gremlin",
+    "ability_point_cost": 35,
+    "description": "Aid Protocol now also grants a reaction shot."
+  },
+  {
+    "name": "Full Override",
+    "category": "Gremlin",
+    "ability_point_cost": 35,
+    "description": "Make a Hack check to Take Full control of a ADVENT Robot (will go to the closest ally base after combat)."
+  },
+  {
+    "name": "Street sweeper",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "as an action, fire in a 15ft cone to deal your weapons dmg with +6 dmg, uses 2 ammo, doesn't work against full cover, 5 turn cooldown if target is unarmored."
+  },
+  {
+    "name": "Chain Lightning",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "as an action with your \"Arc Thrower\", you attack a target + if it hit chain to another non-robotic target, Up to 5 different targets, 4 turn cooldown."
+  },
+  {
+    "name": "Lethal",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "+2 dmg & +1 crit dmg to your classes weapons."
+  },
+  {
+    "name": "Shock wave",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "your Grenades & rockets make targets suffer -3 AC & -4 Dex save for 1 turn."
+  },
+  {
+    "name": "Coup de Grace",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "+10 to Hit/crit & +2 dmg on disoriented, stunned, or panicking targets."
+  },
+  {
+    "name": "Ghost Grenade",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "you can now make these with smokes, instead of extra AC, you instead get Stealthed."
+  },
+  {
+    "name": "Saturation Fire",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "costs 4 ammo, make an attack at every target in a 60ft cone, 7 turn cooldown, (attack action)."
+  },
+  {
+    "name": "Traverse Fire",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "+1 Extra attack."
+  },
+  {
+    "name": "Double Tap",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "After Attacking, you can Attack again or go into Overwatch."
+  },
+  {
+    "name": "Alpha, Mike, Foxtrot",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "+4 dmg & +2 crit dmg."
+  },
+  {
+    "name": "Serial",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "as an action, every kill you get with a Ranged weapon, you can make another attack with a -1 dmg & -4 crit per kill, 7 turn cooldown."
+  },
+  {
+    "name": "Conceal",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "as an action, immediately enter stealth, once a Encounter."
+  },
+  {
+    "name": "Bunker Buster",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "you can fire a building destroying rocket, 50ft radius, (uses all actions)."
+  },
+  {
+    "name": "Crusader's Rage",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "+2 dmg per 5 Hp missing."
+  },
+  {
+    "name": "Firestorm",
+    "category": "Level 8 Feats",
+    "ability_point_cost": 40,
+    "description": "Once per Encounter, in a 30ft radius centerd on you, targets take +2dmg + \"Flame Thrower\" dmg, uses all actions, you are now Fire Immune."
+  },
+  {
+    "name": "Restoration",
+    "category": "Gremlin",
+    "ability_point_cost": 40,
+    "description": "Once per Encounter, you can send your Gremlin to Heal all your allys."
+  },
+  {
+    "name": "Capaciter Discharge",
+    "category": "Gremlin",
+    "ability_point_cost": 40,
+    "description": "once per Encounter, you can send your Gremlin to discharge in a 30ft area, Ignore Armor, cause 1d8/1d12/1d20 dmg, +4dmg to Robotics, Non-Robotic targets get disorienting."
+  }
+]
